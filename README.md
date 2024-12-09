@@ -68,7 +68,7 @@ The project addresses challenges like sensor drift, noise, and distortions, appl
      ```math
      yaw = atan2(magy_calibrated, magx_calibrated)
      ```
-![Comparison of before and after Hard & Soft Iron Corrections] (/analysis/images/hisi_corrections.png)
+![Comparison of before and after Hard & Soft Iron Corrections] (https://github.com/rituraj-navindgikar/Navigation-with-IMU-and-Magnetometer/blob/main/analysis/images/hisi_corrections.png)
 
 ### Velocity Estimation
 - IMU-derived velocity is obtained by integrating forward acceleration:
@@ -82,12 +82,12 @@ The project addresses challenges like sensor drift, noise, and distortions, appl
 
 ### Sensor Fusion
 - A complementary filter combines low-pass filtered magnetometer yaw and high-pass filtered gyroscope yaw to improve robustness
-![Complementary filter] (/analysis/images/complementary_filter.png)
+![Complementary filter] (https://github.com/rituraj-navindgikar/Navigation-with-IMU-and-Magnetometer/blob/main/analysis/images/complementary_filter.png)
 
 4. **Analyze Data in MATLAB**
 - Velocity estimate from the GPS with Velocity estimate from accelerometer after bias adjustment
-![Bias Adjusted] (/analysis/images/vel_gps_acc.png)
+![Bias Adjusted] (https://github.com/rituraj-navindgikar/Navigation-with-IMU-and-Magnetometer/blob/main/analysis/images/vel_gps_acc.png)
 - Compare trajectories with gps_imu_analysis.m
-![GPU and IMU Trajectories] (/analysis/images/gps_imu_trajectory.png)
+![GPU and IMU Trajectories] (https://github.com/rituraj-navindgikar/Navigation-with-IMU-and-Magnetometer/blob/main/analysis/images/gps_imu_trajectory.png)
 
 
